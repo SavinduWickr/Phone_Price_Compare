@@ -15,7 +15,6 @@ script_paths = [
     # 'Instock_to_ram_rom/conversion.py',
     # 'Instock_to_ram_rom/genuis_conversion.py',
     # 'combining_data/combine_all.py',
-    'excel_sql/excel_sql.py',
 ]
 
 # Loop through the script paths and execute them one by one
