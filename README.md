@@ -1,7 +1,7 @@
 # Phone Price Comparison
 
 ## Project Overview
-This project aims to compare the prices of major Sri Lankan mobile phone sellers. Prices are scraped from the respective websites and displayed in a table. Users can filter the results based on the phone model and the seller. The project is built using Python and Streamlit.
+This project aims to compare the prices of major Sri Lankan mobile phone sellers. Prices are scraped from the respective websites and displayed in a table. Users can filter the results based on the phone model the seller , RAM and storage options. The project is built using Python and Streamlit.
 
 ### Live Working Link
 - [Phone Price Comparison App](https://phonepricecomparegit-ao2i728bwacvfjl5zqdp4t.streamlit.app/)
@@ -39,21 +39,25 @@ This project aims to compare the prices of major Sri Lankan mobile phone sellers
 Phone_price_compare
 ├── data_src
 │   ├── instock_data
-│   │   ├── Celltronic.xlsx...
+│   │   ├── storenames.xlsx...
 │   ├── multiple_combined
 │   │   └── Combined_data.xlsx
 │   ├── ram_rom_extracted
-│   │   └── Celltronic.xlsx...
+│   │   └── storenames.xlsx...
 │   ├── html
-│   │   ├── Celltronic
-│   │   │   ├── Celltronic.html
-│   │   ├── DealzWoot
-│   │   │   ├── DealzWoot.html
-├── scripts
-│   ├── Celtronic.py
-│   ├── Celltronic.py
-│   ├── conversion.py
-│   ├── combine_all.py
+│   │   ├── Html Files...
+├── main
+│   ├── combining_data
+│   │   ├── combine_all.py
+│   │   ├── combine_data.py
+│   |   ├── combine_extra.py
+│   ├── instock_checker
+│   │   ├── storenames.py...
+|   ├── web_to_html
+|   │   ├── storenames.py...
+│   ├── instock_to_ram_rom
+│   │   ├── conversion.py
+│   │   ├── genuis_conversion.py
 │   └── All.py
 └── app.py
 
@@ -103,5 +107,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 For any questions or suggestions, please contact:
 
-- **Name**: [savinduwickr@gmail.com]()
+- **Name**: Savindu Wickramasinghe
+- **Email**: [savinduwickr@gmail.com]()
 - **Github**: https://github.com/SavinduWickr
